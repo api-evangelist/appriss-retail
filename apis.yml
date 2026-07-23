@@ -1,8 +1,17 @@
 aid: appriss-retail
 name: Appriss Retail
-description: Appriss Retail is a company surfaced as a portfolio company of insight-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Appriss Retail provides AI-powered solutions that help retailers manage Total
+  Retail Loss across in-store and online channels. Its SaaS platform combines data
+  intelligence, decision intelligence, and workflow intelligence to reduce returns
+  fraud, shrink, and exceptions in real time. Marquee products include Appriss
+  Engage (return and claims authorization, incorporating the Verify return-authorization
+  engine), Appriss Secure (shrink and exception analytics), Appriss Incident (case
+  management), Sidekick (an AI collaborator for loss-prevention teams), and the APIS
+  performance-intelligence platform. Appriss Retail serves more than 60 of the top
+  100 U.S. retailers, drawing on 20+ years of retail data science. Programmatic
+  integration is delivered to retailer clients through the APIS Online cloud portal
+  rather than a public self-serve developer program.
 url: https://raw.githubusercontent.com/api-evangelist/appriss-retail/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +19,31 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
+image: https://apprissretail.com/wp-content/uploads/2026/05/image32.png
 tags:
 - Company
+- Retail
+- Loss Prevention
+- Returns Authorization
+- Fraud Prevention
+- Retail Analytics
+- Artificial Intelligence
+- Loss Management
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +53,24 @@ maintainers:
 common:
 - type: Website
   url: https://apprissretail.com/
+- type: Blog
+  url: https://apprissretail.com/the-takeback/
+- type: Support
+  url: https://apprissretail.com/talk-with-us/
+- type: Login
+  url: https://apis.apprissretailcloud.com/
+- type: PrivacyPolicy
+  url: https://apprissretail.com/privacy-policy/
+- type: TermsOfService
+  url: https://apprissretail.com/terms-of-use/
+- type: TrustCenter
+  url: security/appriss-retail-trust-center.yml
+- type: Compliance
+  url: https://trustportal.apprissretail.com/
+- type: DomainSecurity
+  url: security/appriss-retail-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

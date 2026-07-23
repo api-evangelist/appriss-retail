@@ -1,0 +1,32 @@
+generated: '2026-07-17'
+method: searched
+source: live probes of /.well-known/* on Appriss Retail hosts
+notes: >-
+  No .well-known discovery documents are published on either the marketing host
+  or the APIS Online cloud host. All probes returned 404. Recorded as expected
+  empty data; no WellKnown/SecurityTxt pointer is wired.
+hosts:
+- host: https://apprissretail.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://apis.apprissretailcloud.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404

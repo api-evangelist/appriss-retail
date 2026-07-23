@@ -1,0 +1,23 @@
+generated: '2026-07-17'
+method: searched
+probe: true
+source: https://trustportal.apprissretail.com/
+url: https://trustportal.apprissretail.com/
+name: Appriss Retail Trust Portal (Powered by SafeBase)
+certifications:
+- ISO/IEC 27001
+compliance_frameworks:
+- GDPR
+- CCPA
+- PIPEDA
+notes: >-
+  SafeBase-hosted trust center covering data security, application security,
+  Azure-based infrastructure, endpoint, and network security. Named certification
+  is ISO/IEC 27001 (re-certified per company news). Privacy frameworks addressed:
+  GDPR, CCPA, PIPEDA. Detailed reports (e.g. audit letters) are gated behind an
+  access request. SOC 2 not publicly named on the portal at time of capture.
+evidence:
+- source: https://trustportal.apprissretail.com/
+  keywords: [trust portal, iso 27001, gdpr, ccpa, pipeda, security posture]
+- source: https://apprissretail.com/news/appriss-retail-achieves-iso-270012013-certification-2/
+  keywords: [iso 27001, certification]
