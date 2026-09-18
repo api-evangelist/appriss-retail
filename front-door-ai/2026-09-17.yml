@@ -1,0 +1,27 @@
+# Front Door AI Index — appriss-retail — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: appriss-retail
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: apprissretail.com
+  final_host: apprissretail.com
+  ownership: own
+  owner: appriss-retail
+  shares_host_with:
+  - appriss-inc
+  inherited_from: null
+  verdict: scored
+  score: 6
+  host_score: 6
+  density: 8.68
+  words: 691
+  tiers:
+    agentic: 0
+    core: 6
+    model: 0
+  ambiguous: 9
+  top_terms:
+    intelligence: 9
+    AI: 6
